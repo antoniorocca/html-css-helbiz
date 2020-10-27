@@ -1,0 +1,145 @@
+body {
+  font-family: sans-serif;
+}
+
+/* utility classes */
+.mr-20 {
+  margin-right: 20px;
+}
+
+.pr_1 {
+  padding-right: 1rem;
+}
+
+.pl_1 {
+  padding-left: 1rem;
+}
+
+.no-color {
+  color: white;
+}
+
+header {
+  position: relative;
+  background-image: url(../img/hero_image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+nav a {
+    padding: 0 10px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.list_inline li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_menu, .header_langs {
+  font-size: 0.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header_langs li:not(:last-child) a {
+  border-right: 1px solid white;
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero_text h1 {
+  font-size: 2.5em;
+}
+
+.hero_text p {
+  margin: 20px 0 30px 0;
+}
+
+.hero_text img {
+  width: 150px;
+}
+
+#models {
+  padding: 2rem;
+}
+
+#models .card h2 {
+  padding-top: 40px;
+}
+
+#models .card {
+  text-align: center;
+  background-color: #fafafa;
+  line-height: 3em;
+}
+
+#models .card img {
+  max-width: 100%;
+}
+
+#old_man {
+  margin-top: 350px;
+  position: relative;
+  background-image: url(https://helbiz.com/_nuxt/img/index-banner.1f6fd0a.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+}
+
+.how-does h2 {
+  font-size: 35px;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  text-align: left;
+}
+
+.iphone img {
+  max-width: 20%;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.step-1 {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  text-align: left;
+}
+
+#smart-mobility {
+  margin-top: 100px;
+  background-image: url(https://helbiz.com/\/_nuxt\/img\/scooter\.f0a0397\.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 500px;
+  color: white;
+}
